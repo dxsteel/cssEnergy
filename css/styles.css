@@ -21,7 +21,7 @@ body
 .energy span
 {
     position: absolute;
-    left: 120%;
+    left: 100%;
     width: calc(300px + var(--i));
     height: calc(300px + var(--i));
     background: var(--clr);
@@ -56,11 +56,11 @@ animation-direction: reverse ;
 }
 .crystal span {
     position: absolute;
-    left: 200%;
-    width: calc(300px + var(--i));
-    height: calc(300px + var(--i));
+    left: 180%;
+    width: calc(250px + var(--i));
+    height: calc(250px + var(--i));
     background: var(--clr);
-    transform-origin: calc(100px + var(--i));
+    transform-origin: calc(50px + var(--i));
     animation: animate 5s linear infinite;
     animation-duration: calc(var(--d));
     mix-blend-mode: plus-lighter;
@@ -75,9 +75,10 @@ animation-direction: reverse ;
 
 .square span {
     position: absolute;
-    left: -300%;
-    width: calc(300px + var(--i));
-    height: calc(300px + var(--i));
+    left: -270%;
+    bottom: 10px;
+    width: calc(200px + var(--i));
+    height: calc(200px + var(--i));
     background: var(--clr);
     transform-origin: calc(100px + var(--i));
     animation: animate 5s linear infinite;
