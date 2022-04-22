@@ -56,7 +56,7 @@ animation-direction: reverse ;
 }
 .crystal span {
     position: absolute;
-    left: 250%;
+    left: 200%;
     width: calc(300px + var(--i));
     height: calc(300px + var(--i));
     background: var(--clr);
@@ -75,7 +75,7 @@ animation-direction: reverse ;
 
 .square span {
     position: absolute;
-    left: -350%;
+    left: -300%;
     width: calc(300px + var(--i));
     height: calc(300px + var(--i));
     background: var(--clr);
