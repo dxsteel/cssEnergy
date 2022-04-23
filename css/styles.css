@@ -67,15 +67,16 @@ animation-direction: reverse ;
    filter: blur(40px);
 }
 
-.square {
+.sun {
     position: relative;
     width: 300px;
     height: 300px;
 }
 
-.square span {
+.sun span {
     position: absolute;
-    left: -270%;
+    border-radius: 10%;
+    left: -260%;
     bottom: 10px;
     width: calc(200px + var(--i));
     height: calc(200px + var(--i));
@@ -83,5 +84,6 @@ animation-direction: reverse ;
     transform-origin: calc(100px + var(--i));
     animation: animate 5s linear infinite;
     animation-duration: calc(var(--d));
-    
+    filter: blur(20px);
+    mix-blend-mode: plus-lighter;
 }
